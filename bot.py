@@ -288,10 +288,7 @@ def handle_incoming_messages(message):
 
 if __name__ == "__main__":
     print(f"Starting {BOT_DISPLAY_NAME} engine loop...")
-    bot.infinity_polling()            f"APK Limit Per User: {apk_uses}"
-        )
-        bot.reply_to(message, response, parse_mode="Markdown")
-    except (ValueError, IndexError):
+    bot.infinity_polling()
         bot.reply_to(message, "⚠️ Usage error. Syntax: `/generate <max_users> <apk_uses_per_user>`\nExample: `/generate 10 1`")
 
 
