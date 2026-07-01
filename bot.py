@@ -10,7 +10,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 # CONFIGURATION
 # ==========================================
 BOT_TOKEN = "8877502937:AAGRGZ-dCEQw9IPZ3UCzDkDzcda6WOHgwhA"
-ADMIN_ID = 123456789  # Replace with your actual Telegram User ID (integer)
+ADMIN_ID = 8632939616  # Replace with your actual Telegram User ID (integer)
 BOT_DISPLAY_NAME = "APK Cracker Injector Bot"
 ZIP_OUTPUT_NAME = "payload.zip"
 
